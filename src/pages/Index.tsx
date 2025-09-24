@@ -14,7 +14,10 @@ import { Upload, BarChart3, PieChart, TrendingUp, Database } from 'lucide-react'
 // 🧩 UI Component imports - pre-built components for your interface
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+<<<<<<< HEAD
 import Footer from '@/components/Footer';
+=======
+>>>>>>> upstream/main
 
 // 📊 Data-related imports - components that handle your data
 import DataUpload from '@/components/DataUpload';
@@ -51,15 +54,22 @@ const Index = () => {
           
           {/* 📝 WEEK 1: Students customize this title with their name */}
           <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent mb-4">
+<<<<<<< HEAD
             Daniel Sobowale's Data Hub
+=======
+            Plug-N-Learn
+>>>>>>> upstream/main
           </h1>
           <p className="text-xl text-slate-600 mb-2">Data Insight Engine</p>
           <p className="text-lg text-slate-500 max-w-2xl mx-auto">
             Upload your dataset and instantly discover insights, visualize trends, and explore your data with interactive charts and analytics.
           </p>
+<<<<<<< HEAD
           <p className="text-lg text-slate-500 max-w-2xl mx-auto">
             Developed by Daniel Sobowale - Backend Dev..
           </p>
+=======
+>>>>>>> upstream/main
         </div>
 
         {/* 🔧 WEEK 2: ADD YOUR PROGRESS COMPONENT HERE! */}
@@ -135,7 +145,10 @@ const Index = () => {
           </>
         )}
       </div>
+<<<<<<< HEAD
       <Footer></Footer>
+=======
+>>>>>>> upstream/main
     </div>
   );
 };
